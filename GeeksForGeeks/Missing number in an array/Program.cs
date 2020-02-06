@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-//https://practice.geeksforgeeks.org/problems/missing-number-in-array/0m
+//https://practice.geeksforgeeks.org/problems/missing-number-in-array/0
 namespace Missing_number_in_an_array
 {
     public static class AppHelper
