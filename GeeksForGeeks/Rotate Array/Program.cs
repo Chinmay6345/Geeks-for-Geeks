@@ -48,4 +48,3 @@ namespace Rotate_Array
         }
     }
 }
-Contains solutions to practice problems in C#
