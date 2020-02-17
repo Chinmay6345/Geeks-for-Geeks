@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leaders in Array", "Leaders
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Missing number in an array", "Missing number in an array\Missing number in an array.csproj", "{053C22DE-DAF0-4928-AC66-1ED335EAE540}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count the zeros", "Count the zeros\Count the zeros.csproj", "{1E625CDB-0C04-464D-9DC7-7C6E7A32BC5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{053C22DE-DAF0-4928-AC66-1ED335EAE540}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{053C22DE-DAF0-4928-AC66-1ED335EAE540}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{053C22DE-DAF0-4928-AC66-1ED335EAE540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E625CDB-0C04-464D-9DC7-7C6E7A32BC5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E625CDB-0C04-464D-9DC7-7C6E7A32BC5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E625CDB-0C04-464D-9DC7-7C6E7A32BC5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E625CDB-0C04-464D-9DC7-7C6E7A32BC5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
