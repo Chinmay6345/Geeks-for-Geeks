@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count the zeros", "Count th
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consecutive Elements", "Consecutive Elements\Consecutive Elements.csproj", "{43168446-2233-4369-BEB2-35957BC84B25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count occurrences of anagram", "Count occurrences of anagram\Count occurrences of anagram.csproj", "{5294628A-8D69-47BC-894D-95D2EC46D670}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{43168446-2233-4369-BEB2-35957BC84B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43168446-2233-4369-BEB2-35957BC84B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43168446-2233-4369-BEB2-35957BC84B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5294628A-8D69-47BC-894D-95D2EC46D670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5294628A-8D69-47BC-894D-95D2EC46D670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5294628A-8D69-47BC-894D-95D2EC46D670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5294628A-8D69-47BC-894D-95D2EC46D670}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
