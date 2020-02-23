@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Largest number formed from 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse each word in string", "Reverse each word in string\Reverse each word in string.csproj", "{4CFC7DE6-6D78-49F0-9AE2-746043664210}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutations of string", "Permutations of string\Permutations of string.csproj", "{B36F1692-9994-4BE2-B313-43669A693DFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{4CFC7DE6-6D78-49F0-9AE2-746043664210}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CFC7DE6-6D78-49F0-9AE2-746043664210}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CFC7DE6-6D78-49F0-9AE2-746043664210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36F1692-9994-4BE2-B313-43669A693DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36F1692-9994-4BE2-B313-43669A693DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36F1692-9994-4BE2-B313-43669A693DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36F1692-9994-4BE2-B313-43669A693DFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
