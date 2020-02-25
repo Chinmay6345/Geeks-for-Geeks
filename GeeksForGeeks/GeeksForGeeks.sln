@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutations of string", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Element appearing only once", "Element appearing only once\Element appearing only once.csproj", "{D00B6633-E74B-4267-9E8B-C9CA6BD37860}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Floor in sorted array", "Floor in sorted array\Floor in sorted array.csproj", "{8C0B3109-2E48-4297-9C5B-5221EA603179}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{D00B6633-E74B-4267-9E8B-C9CA6BD37860}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D00B6633-E74B-4267-9E8B-C9CA6BD37860}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D00B6633-E74B-4267-9E8B-C9CA6BD37860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0B3109-2E48-4297-9C5B-5221EA603179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0B3109-2E48-4297-9C5B-5221EA603179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0B3109-2E48-4297-9C5B-5221EA603179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0B3109-2E48-4297-9C5B-5221EA603179}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
