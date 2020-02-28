@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Non Repeating Element", "No
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balanced Array", "Balanced Array\Balanced Array.csproj", "{11195B31-66C1-4EDE-BB03-CDCEB909494A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greater on the right side", "Greater on the right side\Greater on the right side.csproj", "{DD950BBD-39D4-47DD-A1D1-E1E7E2B73D65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{11195B31-66C1-4EDE-BB03-CDCEB909494A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11195B31-66C1-4EDE-BB03-CDCEB909494A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11195B31-66C1-4EDE-BB03-CDCEB909494A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD950BBD-39D4-47DD-A1D1-E1E7E2B73D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD950BBD-39D4-47DD-A1D1-E1E7E2B73D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD950BBD-39D4-47DD-A1D1-E1E7E2B73D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD950BBD-39D4-47DD-A1D1-E1E7E2B73D65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
