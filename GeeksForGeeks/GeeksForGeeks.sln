@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greater on the right side",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find first and last occurrence of x", "Find first and last occurrence of x\Find first and last occurrence of x.csproj", "{17119109-700B-4B45-A33A-F0C52AE024FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Last index of one", "Last index of one\Last index of one.csproj", "{A1CC42D2-9CFE-45C1-BEAC-E79D3E1E8CB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{17119109-700B-4B45-A33A-F0C52AE024FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17119109-700B-4B45-A33A-F0C52AE024FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17119109-700B-4B45-A33A-F0C52AE024FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1CC42D2-9CFE-45C1-BEAC-E79D3E1E8CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1CC42D2-9CFE-45C1-BEAC-E79D3E1E8CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1CC42D2-9CFE-45C1-BEAC-E79D3E1E8CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1CC42D2-9CFE-45C1-BEAC-E79D3E1E8CB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
