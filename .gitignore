@@ -260,3 +260,5 @@ paket-files/
 __pycache__/
 *.pyc
 /GeeksForGeeks/Leaders in Array
+/GeeksForGeeks/K-th element of two sorted Arrays
+/GeeksForGeeks/Sort an array of 0s, 1s and 2s
