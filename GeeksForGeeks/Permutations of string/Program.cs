@@ -33,6 +33,7 @@ namespace Permutations_of_string
 {
     public static class AppHelper
     {
+        //using tree
         public static void Permute(String str,Int32 low,Int32 high)
         {
             if(low.Equals(high))
