@@ -8,6 +8,24 @@ namespace Left_rotate_by_d_positions
 {
     public static class AppHelper
     {
+        public static void RotateMethod2(Int32 [] arr,Int32 d)
+        {
+            Int32[] temp = new int[d];
+            Int32 n = arr.Length;
+            for(Int32 i=0;i<d;i++)
+            {
+                temp[i] = arr[i];
+            }
+            for(Int32 i=d;i<n;i++)
+            {
+                arr[i-d] = arr[i];
+            }
+            for(Int32 i=0;i<d;i++)
+            {
+                arr[n - d + i] = temp[i];
+            }
+        }
+
         public static void leftRotateOnce(Int32 [] arr,Int32 n)
         {
             int temp = arr[0];
