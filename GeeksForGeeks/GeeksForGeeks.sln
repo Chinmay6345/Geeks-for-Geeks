@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Left rotate array by one", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Left rotate by d positions", "Left rotate by d positions\Left rotate by d positions.csproj", "{B05C3E42-FFD1-4CB7-B51A-A4D584E595B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Right rotate array by d", "Right rotate array by d\Right rotate array by d.csproj", "{F9280D9A-080E-4C7A-8A05-F55828FC0587}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{B05C3E42-FFD1-4CB7-B51A-A4D584E595B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B05C3E42-FFD1-4CB7-B51A-A4D584E595B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B05C3E42-FFD1-4CB7-B51A-A4D584E595B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9280D9A-080E-4C7A-8A05-F55828FC0587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9280D9A-080E-4C7A-8A05-F55828FC0587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9280D9A-080E-4C7A-8A05-F55828FC0587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9280D9A-080E-4C7A-8A05-F55828FC0587}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

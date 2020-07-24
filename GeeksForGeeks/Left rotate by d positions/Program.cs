@@ -54,7 +54,7 @@ namespace Left_rotate_by_d_positions
         public static void leftRotateOnce(Int32 [] arr,Int32 n)
         {
             int temp = arr[0];
-            for(Int32 i=0;i<n;i++)
+            for(Int32 i=1;i<n;i++)
             {
                 arr[i - 1] = arr[i];
             }
