@@ -8,13 +8,13 @@ namespace Maximum_consecutive_ones
 {
     public static class AppHelper
     {
-        public static Int32 MaxOnes(Int32 [] arr,Int32 n)
+        public static Int32 MaxOnes(Int32[] arr, Int32 n)
         {
             Int32 result = 0;
-            for(Int32 i=0;i<n;i++)
+            for (Int32 i = 0; i < n; i++)
             {
                 Int32 count = 0;
-                for(Int32 j=i;j<n;j++)
+                for (Int32 j = i; j < n; j++)
                 {
                     if (arr[j] == 0)
                         count++;
@@ -22,6 +22,21 @@ namespace Maximum_consecutive_ones
                         break;
                 }
                 result = Math.Max(count, result);
+            }
+            return result;
+        }
+        public static Int32 OMaxOnes(Int32[] arr, Int32 n)
+        {
+            Int32 result=0, count = 0;
+            for (Int32 i = 0; i < n; i++)
+            {
+                if (arr[i] == 0)
+                    count = 0;
+                else
+                {
+                    count++;
+                    result = Math.Max(count, result);
+                }
             }
             return result;
         }
