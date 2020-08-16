@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leaders in array", "Leaders
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frequencies in A Sorted Array", "Frequencies in A Sorted Array\Frequencies in A Sorted Array.csproj", "{4D7541EC-8F29-47DF-B03E-1A0520B8955D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tapping Rain Water", "Tapping Rain Water\Tapping Rain Water.csproj", "{F1D79CFC-7E8E-4C61-84B8-AE6EEF46B6A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{4D7541EC-8F29-47DF-B03E-1A0520B8955D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D7541EC-8F29-47DF-B03E-1A0520B8955D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D7541EC-8F29-47DF-B03E-1A0520B8955D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1D79CFC-7E8E-4C61-84B8-AE6EEF46B6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D79CFC-7E8E-4C61-84B8-AE6EEF46B6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D79CFC-7E8E-4C61-84B8-AE6EEF46B6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D79CFC-7E8E-4C61-84B8-AE6EEF46B6A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
