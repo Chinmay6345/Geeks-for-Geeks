@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frequencies in A Sorted Arr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tapping Rain Water", "Tapping Rain Water\Tapping Rain Water.csproj", "{F1D79CFC-7E8E-4C61-84B8-AE6EEF46B6A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum consecutive ones", "Maximum consecutive ones\Maximum consecutive ones.csproj", "{090F37D9-3755-49AB-B9EB-B12BA0B9664D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{F1D79CFC-7E8E-4C61-84B8-AE6EEF46B6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1D79CFC-7E8E-4C61-84B8-AE6EEF46B6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1D79CFC-7E8E-4C61-84B8-AE6EEF46B6A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{090F37D9-3755-49AB-B9EB-B12BA0B9664D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{090F37D9-3755-49AB-B9EB-B12BA0B9664D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{090F37D9-3755-49AB-B9EB-B12BA0B9664D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{090F37D9-3755-49AB-B9EB-B12BA0B9664D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
