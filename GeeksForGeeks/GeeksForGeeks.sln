@@ -57,6 +57,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum consecutive ones", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum Subarray", "Maximum Subarray\Maximum Subarray.csproj", "{B853F991-731D-4D22-966C-0813AE91FA44}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Udemy", "Udemy", "{3083684A-E289-4407-ABD8-9A7FC2FFE032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum of n natural numbers Recursion", "Sum of n natural numbers Recursion\Sum of n natural numbers Recursion.csproj", "{8034989A-B91E-4BD1-A7CC-1F8976227C09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,9 +175,16 @@ Global
 		{B853F991-731D-4D22-966C-0813AE91FA44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B853F991-731D-4D22-966C-0813AE91FA44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B853F991-731D-4D22-966C-0813AE91FA44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8034989A-B91E-4BD1-A7CC-1F8976227C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8034989A-B91E-4BD1-A7CC-1F8976227C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8034989A-B91E-4BD1-A7CC-1F8976227C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8034989A-B91E-4BD1-A7CC-1F8976227C09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8034989A-B91E-4BD1-A7CC-1F8976227C09} = {3083684A-E289-4407-ABD8-9A7FC2FFE032}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E099459-EAA2-41DE-B531-270E18D8839B}
