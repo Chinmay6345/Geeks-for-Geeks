@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum of n natural numbers Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taylor series using Horner rule", "Taylor series using Horner rule\Taylor series using Horner rule.csproj", "{CF079E8A-2650-49C6-A56A-6A7E3EAAF392}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tower of Hanoi", "Tower of Hanoi\Tower of Hanoi.csproj", "{FCA6DC24-DADE-4F50-8EDB-09C06CBED445}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -185,6 +187,10 @@ Global
 		{CF079E8A-2650-49C6-A56A-6A7E3EAAF392}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF079E8A-2650-49C6-A56A-6A7E3EAAF392}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF079E8A-2650-49C6-A56A-6A7E3EAAF392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCA6DC24-DADE-4F50-8EDB-09C06CBED445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA6DC24-DADE-4F50-8EDB-09C06CBED445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA6DC24-DADE-4F50-8EDB-09C06CBED445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCA6DC24-DADE-4F50-8EDB-09C06CBED445}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -192,6 +198,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8034989A-B91E-4BD1-A7CC-1F8976227C09} = {3083684A-E289-4407-ABD8-9A7FC2FFE032}
 		{CF079E8A-2650-49C6-A56A-6A7E3EAAF392} = {3083684A-E289-4407-ABD8-9A7FC2FFE032}
+		{FCA6DC24-DADE-4F50-8EDB-09C06CBED445} = {3083684A-E289-4407-ABD8-9A7FC2FFE032}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E099459-EAA2-41DE-B531-270E18D8839B}
