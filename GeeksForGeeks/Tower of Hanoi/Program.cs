@@ -18,7 +18,7 @@ namespace Tower_of_Hanoi
     {
         static void Main(string[] args)
         {
-            AppHelper.TowerOfHanoi(3, '1', '2', '3');
+            AppHelper.TowerOfHanoi(3, 'A', 'B', 'C');
             Console.ReadLine();
         }
     }
