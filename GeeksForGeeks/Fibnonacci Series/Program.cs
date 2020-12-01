@@ -8,6 +8,12 @@ namespace Fibnonacci_Series
 {
     public static class AppHelper
     {
+        public static Int32 FibRec(Int32 n)
+        {
+            if (n <= 1)
+                return n;
+            return FibRec(n - 2) + FibRec(n - 1);
+        }
         public static Int32 FibIteration(Int32 n)
         {
             if (n <= 1)
@@ -28,7 +34,7 @@ namespace Fibnonacci_Series
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(AppHelper.FibIteration(7));
+            Console.WriteLine(AppHelper.FibRec(7));
             Console.ReadLine();
         }
     }
