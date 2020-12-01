@@ -8,6 +8,29 @@ namespace Fibnonacci_Series
 {
     public static class AppHelper
     {
+        public static Int32 FibMemo(Int32 n)
+        {
+            Int32[] arr=new Int32[n+1];
+            for(Int32 i=0;i<n;i++)
+            {
+                arr[i] = -1;
+            }
+            if (n <= 1)
+            {
+                arr[n] = n;
+                return n;
+            }
+            if(arr[n-2]==-1)
+            {
+                arr[n - 2] = FibMemo(n - 2);
+            }
+            if(arr[n-1]==-1)
+            {
+                arr[n - 1] = FibMemo(n - 1);
+            }
+            arr[n]=arr[n-1]+arr[n-2];
+            return arr[n-1]+arr[n-2];
+        }
         public static Int32 FibRec(Int32 n)
         {
             if (n <= 1)
@@ -34,7 +57,7 @@ namespace Fibnonacci_Series
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(AppHelper.FibRec(7));
+            Console.WriteLine(AppHelper.FibMemo(5));
             Console.ReadLine();
         }
     }
