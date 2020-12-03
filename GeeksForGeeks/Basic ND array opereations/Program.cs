@@ -6,6 +6,23 @@ using System.Threading.Tasks;
 
 namespace Basic_ND_array_opereations
 {
+    public static class AppHelper
+    {
+        public static void InsertAtIndex(Int32 index, Int32 element)
+        {
+            Int32[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            if (index <= arr.Length || index > arr.Length)
+            {
+                return;
+            }
+            Array.Resize<Int32>(ref arr, arr.Length + 1);
+            for(Int32 i=arr.Length-1;i>index;i--)
+            {
+                arr[i] = arr[i - 1];
+            }
+            arr[index] = element;
+        }
+    }
     class Program
     {
         static void Main(string[] args)
