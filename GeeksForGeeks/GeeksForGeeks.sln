@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tower of Hanoi", "Tower of 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibnonacci Series", "Fibnonacci Series\Fibnonacci Series.csproj", "{C7251EF2-D3BE-4404-9330-2BF924CD03A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic ND array opereations", "Basic ND array opereations\Basic ND array opereations.csproj", "{B9196682-016E-41A7-ADEE-366A43A35B44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -197,6 +199,10 @@ Global
 		{C7251EF2-D3BE-4404-9330-2BF924CD03A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7251EF2-D3BE-4404-9330-2BF924CD03A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7251EF2-D3BE-4404-9330-2BF924CD03A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9196682-016E-41A7-ADEE-366A43A35B44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9196682-016E-41A7-ADEE-366A43A35B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9196682-016E-41A7-ADEE-366A43A35B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9196682-016E-41A7-ADEE-366A43A35B44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -206,6 +212,7 @@ Global
 		{CF079E8A-2650-49C6-A56A-6A7E3EAAF392} = {3083684A-E289-4407-ABD8-9A7FC2FFE032}
 		{FCA6DC24-DADE-4F50-8EDB-09C06CBED445} = {3083684A-E289-4407-ABD8-9A7FC2FFE032}
 		{C7251EF2-D3BE-4404-9330-2BF924CD03A2} = {3083684A-E289-4407-ABD8-9A7FC2FFE032}
+		{B9196682-016E-41A7-ADEE-366A43A35B44} = {3083684A-E289-4407-ABD8-9A7FC2FFE032}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E099459-EAA2-41DE-B531-270E18D8839B}
