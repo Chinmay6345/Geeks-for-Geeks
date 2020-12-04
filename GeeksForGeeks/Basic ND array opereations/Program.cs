@@ -11,7 +11,7 @@ namespace Basic_ND_array_opereations
         public static void InsertAtIndex(Int32 index, Int32 element)
         {
             Int32[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            if (index <= arr.Length || index > arr.Length)
+            if (index <0 || index > arr.Length)
             {
                 return;
             }
@@ -22,11 +22,28 @@ namespace Basic_ND_array_opereations
             }
             arr[index] = element;
         }
-    }
-    class Program
-    {
-        static void Main(string[] args)
+        public static void RemoveAtIndex()
         {
+            Int32[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            Int32 index = 2;
+            arr[index] = -1;
+            if (index <0 || index > arr.Length)
+            {
+                return;
+            }
+            for(Int32 i=index; i<arr.Length-1;i++)
+            {
+                arr[i] = arr[i + 1];
+            }
+            Array.Resize(ref arr, arr.Length - 1);
+            Console.WriteLine(String.Join(",", arr.Select(g => g)));
+        }
+    }
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            AppHelper.RemoveAtIndex();
             Int32[,] arr =  { { 1, 3, 2 },{ 6, 4, 5 } };
             
             Console.WriteLine(arr.GetUpperBound(0) + " " + arr.GetUpperBound(1));
