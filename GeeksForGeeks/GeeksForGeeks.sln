@@ -75,6 +75,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse an array", "Reverse
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insert in a sorted array", "Insert in a sorted array\Insert in a sorted array.csproj", "{173916AF-AE54-4448-A457-702D7E5EC370}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check if array is sorted", "Check if array is sorted\Check if array is sorted.csproj", "{44CF3EA4-11C2-4055-8834-B97F0206C8E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort Negative numbers followed by positive", "Sort Negative numbers followed by positive\Sort Negative numbers followed by positive.csproj", "{EAFC5470-2A42-4AD6-8776-D3D6D1D8B300}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -221,6 +225,14 @@ Global
 		{173916AF-AE54-4448-A457-702D7E5EC370}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{173916AF-AE54-4448-A457-702D7E5EC370}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{173916AF-AE54-4448-A457-702D7E5EC370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44CF3EA4-11C2-4055-8834-B97F0206C8E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44CF3EA4-11C2-4055-8834-B97F0206C8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44CF3EA4-11C2-4055-8834-B97F0206C8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44CF3EA4-11C2-4055-8834-B97F0206C8E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAFC5470-2A42-4AD6-8776-D3D6D1D8B300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFC5470-2A42-4AD6-8776-D3D6D1D8B300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFC5470-2A42-4AD6-8776-D3D6D1D8B300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFC5470-2A42-4AD6-8776-D3D6D1D8B300}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -234,6 +246,8 @@ Global
 		{891CFEDF-649D-43DA-9F84-C95B739744AC} = {3083684A-E289-4407-ABD8-9A7FC2FFE032}
 		{2A7F7E60-CEAF-4AAC-8A65-D286257257D3} = {3083684A-E289-4407-ABD8-9A7FC2FFE032}
 		{173916AF-AE54-4448-A457-702D7E5EC370} = {3083684A-E289-4407-ABD8-9A7FC2FFE032}
+		{44CF3EA4-11C2-4055-8834-B97F0206C8E6} = {3083684A-E289-4407-ABD8-9A7FC2FFE032}
+		{EAFC5470-2A42-4AD6-8776-D3D6D1D8B300} = {3083684A-E289-4407-ABD8-9A7FC2FFE032}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E099459-EAA2-41DE-B531-270E18D8839B}
