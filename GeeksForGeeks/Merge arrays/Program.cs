@@ -10,6 +10,7 @@ namespace Merge_arrays
     {
         public static void MergeTwoArrays(Int32 [] a, Int32 [] b)
         {
+            int x = a.Last();
             Int32 m = a.Length;
             Int32 n = b.Length;
             Int32 i = 0, j = 0, k = 0;

@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort Negative numbers follo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merge arrays", "Merge arrays\Merge arrays.csproj", "{89AFDBE5-4911-4531-A400-1E8F07A0B4F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Missing Number", "Missing Number\Missing Number.csproj", "{F832A881-031F-40A8-877F-49B88C6BE766}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -239,6 +241,10 @@ Global
 		{89AFDBE5-4911-4531-A400-1E8F07A0B4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89AFDBE5-4911-4531-A400-1E8F07A0B4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89AFDBE5-4911-4531-A400-1E8F07A0B4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F832A881-031F-40A8-877F-49B88C6BE766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F832A881-031F-40A8-877F-49B88C6BE766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F832A881-031F-40A8-877F-49B88C6BE766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F832A881-031F-40A8-877F-49B88C6BE766}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -255,6 +261,7 @@ Global
 		{44CF3EA4-11C2-4055-8834-B97F0206C8E6} = {3083684A-E289-4407-ABD8-9A7FC2FFE032}
 		{EAFC5470-2A42-4AD6-8776-D3D6D1D8B300} = {3083684A-E289-4407-ABD8-9A7FC2FFE032}
 		{89AFDBE5-4911-4531-A400-1E8F07A0B4F7} = {3083684A-E289-4407-ABD8-9A7FC2FFE032}
+		{F832A881-031F-40A8-877F-49B88C6BE766} = {3083684A-E289-4407-ABD8-9A7FC2FFE032}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E099459-EAA2-41DE-B531-270E18D8839B}
