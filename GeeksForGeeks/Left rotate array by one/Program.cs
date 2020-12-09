@@ -4,19 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Left_rotate_array_by_one
+namespace Left_rotate_numsay_by_one
 {
     public static class AppHelper
     {
-        public static Int32 [] leftrotateByOne(Int32 [] arr,int n)
+        public static Int32 [] leftrotateByOne(Int32 [] nums,Int32 n)
         {
-            int first = arr[0];
+            Int32 first = nums[0];
             for(Int32 i=1;i<n;i++)
             {
-                arr[i - 1] = arr[i];
+                nums[i - 1] = nums[i];
             }
-            arr[n - 1] = first;
-            return arr;
+            nums[n - 1] = first;
+            return nums;
         }
     }
     
@@ -25,8 +25,8 @@ namespace Left_rotate_array_by_one
     {
         static void Main(string[] args)
         {
-            Int32[] arr = { 1, 2, 3, 4, 5 };
-            arr = AppHelper.leftrotateByOne(arr, arr.Length);
+            Int32[] nums = { 1, 2, 3, 4, 5 };
+            nums = AppHelper.leftrotateByOne(nums, nums.Length);
             Console.ReadLine();
         }
     }

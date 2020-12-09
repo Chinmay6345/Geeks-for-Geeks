@@ -8,7 +8,7 @@ namespace Missing_Number
 {
     public static class AppHelper
     {
-        public static int MissingNumber(int[] nums)
+        public static Int32 MissingNumber(Int32[] nums)
         {
             Int32 sum = nums.Sum();
             Int32 n = nums.Length;
@@ -33,7 +33,7 @@ namespace Missing_Number
     {
         static void Main(string[] args)
         {
-            int k = AppHelper.MissingNumberUsingSet(new int[] { 9,6,4,2,3,5,7,0,1 });
+            Int32 k = AppHelper.MissingNumberUsingSet(new Int32[] { 9,6,4,2,3,5,7,0,1 });
             Console.WriteLine(k);
             Console.ReadLine();
         }

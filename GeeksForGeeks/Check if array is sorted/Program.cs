@@ -4,26 +4,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Check_if_array_is_sorted
+namespace Check_if_numsay_is_sorted
 {
     public static class AppHelper
     {
-        public static bool IsArraySorted(Int32[] arr)
+        public static bool IsnumsaySorted(Int32[] nums)
         {
-            for (Int32 i = arr.Length - 1; i > 0; i--)
+            for (Int32 i = nums.Length - 1; i > 0; i--)
             {
-                if (arr[i] < arr[i - 1])
+                if (nums[i] < nums[i - 1])
                     return false;
             }
             return true;
         }
 
-        public static bool IsArraySortedDesc(Int32[] arr)
+        public static bool IsnumsaySortedDesc(Int32[] nums)
         {
-            for (Int32 i = arr.Length - 1; i > 0; i--)
+            for (Int32 i = nums.Length - 1; i > 0; i--)
             {
-                Console.WriteLine("arr[i-1] and arr[i] =" + arr[i - 1] + " " + arr[i] + " is less ?" + (arr[i - 1] < arr[i] ? true : false));
-                if (arr[i - 1] < arr[i])
+                Console.WriteLine("nums[i-1] and nums[i] =" + nums[i - 1] + " " + nums[i] + " is less ?" + (nums[i - 1] < nums[i] ? true : false));
+                if (nums[i - 1] < nums[i])
                 {
                     return false;
                 }
@@ -35,10 +35,10 @@ namespace Check_if_array_is_sorted
     {
         public static void Main(string[] args)
         {
-            Int32[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-            //Console.WriteLine(AppHelper.IsArraySorted(arr));
-            arr = arr.OrderByDescending(g => g).ToArray<Int32>();
-            Console.WriteLine(AppHelper.IsArraySortedDesc(arr));
+            Int32[] nums = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            //Console.WriteLine(AppHelper.IsnumsaySorted(nums));
+            nums = nums.OrderByDescending(g => g).Tonumsay<Int32>();
+            Console.WriteLine(AppHelper.IsnumsaySortedDesc(nums));
             Console.ReadLine();
         }
     }

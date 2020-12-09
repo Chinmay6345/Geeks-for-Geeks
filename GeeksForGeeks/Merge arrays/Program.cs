@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Merge_arrays
+namespace Merge_numsays
 {
     public static class AppHelper
     {
-        public static void MergeTwoArrays(Int32 [] a, Int32 [] b)
+        public static void MergeTwonumsays(Int32 [] a, Int32 [] b)
         {
-            int x = a.Last();
+            Int32 x = a.Last();
             Int32 m = a.Length;
             Int32 n = b.Length;
             Int32 i = 0, j = 0, k = 0;
@@ -40,7 +40,7 @@ namespace Merge_arrays
         {
             Int32[] a = { 3, 8, 16, 20, 25 };
             Int32[] b = { 4, 10, 12, 22, 23 };
-            AppHelper.MergeTwoArrays(a,b);
+            AppHelper.MergeTwonumsays(a,b);
             Console.ReadLine();
         }
     }

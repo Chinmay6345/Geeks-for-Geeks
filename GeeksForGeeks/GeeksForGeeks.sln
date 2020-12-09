@@ -87,6 +87,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find multiple missing numbe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two Sum", "Two Sum\Two Sum.csproj", "{B529EF95-ADB5-4218-A4A7-1B191A23F4E4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sorting Algorithms", "Sorting Algorithms", "{F3F4F6F3-4C08-4C52-88CA-B9852BF4E452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{4B039AA1-6171-40EC-AB2B-FB46A6767DEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -257,6 +261,10 @@ Global
 		{B529EF95-ADB5-4218-A4A7-1B191A23F4E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B529EF95-ADB5-4218-A4A7-1B191A23F4E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B529EF95-ADB5-4218-A4A7-1B191A23F4E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B039AA1-6171-40EC-AB2B-FB46A6767DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B039AA1-6171-40EC-AB2B-FB46A6767DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B039AA1-6171-40EC-AB2B-FB46A6767DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B039AA1-6171-40EC-AB2B-FB46A6767DEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -276,6 +284,7 @@ Global
 		{F832A881-031F-40A8-877F-49B88C6BE766} = {3083684A-E289-4407-ABD8-9A7FC2FFE032}
 		{DBAB43F4-2BBD-4458-8EE3-350A6662A4D3} = {3083684A-E289-4407-ABD8-9A7FC2FFE032}
 		{B529EF95-ADB5-4218-A4A7-1B191A23F4E4} = {3083684A-E289-4407-ABD8-9A7FC2FFE032}
+		{4B039AA1-6171-40EC-AB2B-FB46A6767DEC} = {F3F4F6F3-4C08-4C52-88CA-B9852BF4E452}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E099459-EAA2-41DE-B531-270E18D8839B}
