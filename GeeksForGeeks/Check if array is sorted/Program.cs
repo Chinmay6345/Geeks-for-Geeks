@@ -37,7 +37,7 @@ namespace Check_if_numsay_is_sorted
         {
             Int32[] nums = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
             //Console.WriteLine(AppHelper.IsnumsaySorted(nums));
-            nums = nums.OrderByDescending(g => g).Tonumsay<Int32>();
+            nums = nums.OrderByDescending(g => g).ToArray<Int32>();
             Console.WriteLine(AppHelper.IsnumsaySortedDesc(nums));
             Console.ReadLine();
         }

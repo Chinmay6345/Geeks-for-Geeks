@@ -10,7 +10,7 @@ namespace Insert_in_a_sorted_numsay
     {
         public static void InsertInSortednumsay(Int32 [] nums,Int32 element)
         {
-            numsay.Resize<Int32>(ref nums, nums.Length + 1);
+            Array.Resize<Int32>(ref nums, nums.Length + 1);
             Int32 i = nums.Length - 1;
             nums[i] = 100;
             while(nums[i]>element)

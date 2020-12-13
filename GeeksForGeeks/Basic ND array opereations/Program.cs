@@ -35,7 +35,7 @@ namespace Basic_ND_numsay_opereations
             {
                 nums[i] = nums[i + 1];
             }
-            numsay.Resize(ref nums, nums.Length - 1);
+            Array.Resize(ref nums, nums.Length - 1);
             Console.WriteLine(String.Join(",", nums.Select(g => g)));
         }
     }
