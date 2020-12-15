@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Linq;
 
+
+//quick sort -Time complexity- O(nlogn) --sorts in the middle of list using recursive call.
 namespace Quick_Sort
 {
     public static class AppHelper
