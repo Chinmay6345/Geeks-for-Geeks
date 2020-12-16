@@ -2,7 +2,7 @@
 using System.Linq;
 
 
-//quick sort -Time complexity- O(nlogn) --sorts in the middle of list using recursive call.
+//quick sort -Time complexity- O(nlogn) --sorts in the middle of list using recursive call by using partitioning.
 namespace Quick_Sort
 {
     public static class AppHelper
