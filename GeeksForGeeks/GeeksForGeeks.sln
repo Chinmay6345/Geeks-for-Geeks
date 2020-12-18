@@ -103,6 +103,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merge Sort", "Merge Sort\Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Sort", "Count Sort\Count Sort.csproj", "{8B7D5F3F-9A03-4C6E-931E-30AAAD4529EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shell Sort", "Shell Sort\Shell Sort.csproj", "{5661AE4D-8400-490A-A77E-E2B69EA4145E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -301,6 +303,10 @@ Global
 		{8B7D5F3F-9A03-4C6E-931E-30AAAD4529EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B7D5F3F-9A03-4C6E-931E-30AAAD4529EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B7D5F3F-9A03-4C6E-931E-30AAAD4529EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5661AE4D-8400-490A-A77E-E2B69EA4145E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5661AE4D-8400-490A-A77E-E2B69EA4145E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5661AE4D-8400-490A-A77E-E2B69EA4145E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5661AE4D-8400-490A-A77E-E2B69EA4145E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -327,6 +333,7 @@ Global
 		{2AA715CC-BB1F-4667-9CB6-E14A272718C8} = {F3F4F6F3-4C08-4C52-88CA-B9852BF4E452}
 		{A2C106B1-8D45-46B6-8237-2C58468A240F} = {F3F4F6F3-4C08-4C52-88CA-B9852BF4E452}
 		{8B7D5F3F-9A03-4C6E-931E-30AAAD4529EB} = {F3F4F6F3-4C08-4C52-88CA-B9852BF4E452}
+		{5661AE4D-8400-490A-A77E-E2B69EA4145E} = {F3F4F6F3-4C08-4C52-88CA-B9852BF4E452}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E099459-EAA2-41DE-B531-270E18D8839B}
