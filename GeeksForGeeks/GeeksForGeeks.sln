@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.705
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotate Array", "Rotate Array\Rotate Array.csproj", "{2BAC7522-7157-49B1-8D30-996A4A505C18}"
 EndProject
@@ -104,6 +104,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Sort", "Count Sort\Count Sort.csproj", "{8B7D5F3F-9A03-4C6E-931E-30AAAD4529EB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shell Sort", "Shell Sort\Shell Sort.csproj", "{5661AE4D-8400-490A-A77E-E2B69EA4145E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Trees", "Trees", "{9220D2FD-FA6C-43A0-839B-353701E77955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bottom View of Binary Tree", "Bottom View of Binary Tree\Bottom View of Binary Tree.csproj", "{03144B87-40F8-4288-908B-342684CB0195}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -307,6 +311,10 @@ Global
 		{5661AE4D-8400-490A-A77E-E2B69EA4145E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5661AE4D-8400-490A-A77E-E2B69EA4145E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5661AE4D-8400-490A-A77E-E2B69EA4145E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03144B87-40F8-4288-908B-342684CB0195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03144B87-40F8-4288-908B-342684CB0195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03144B87-40F8-4288-908B-342684CB0195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03144B87-40F8-4288-908B-342684CB0195}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -334,6 +342,7 @@ Global
 		{A2C106B1-8D45-46B6-8237-2C58468A240F} = {F3F4F6F3-4C08-4C52-88CA-B9852BF4E452}
 		{8B7D5F3F-9A03-4C6E-931E-30AAAD4529EB} = {F3F4F6F3-4C08-4C52-88CA-B9852BF4E452}
 		{5661AE4D-8400-490A-A77E-E2B69EA4145E} = {F3F4F6F3-4C08-4C52-88CA-B9852BF4E452}
+		{03144B87-40F8-4288-908B-342684CB0195} = {9220D2FD-FA6C-43A0-839B-353701E77955}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E099459-EAA2-41DE-B531-270E18D8839B}
